@@ -8,15 +8,15 @@
   <mat-toolbar-row>
     <span>Eventify</span>
     <span class="flexExpand"></span>
-    <div>
-      <!-- <a mat-icon-button> Logout </a> -->
-      <mat-icon
-        class="example-icon"
-        aria-hidden="false"
-        aria-label="Example user verified icon"
-        >verified_user</mat-icon
-      >
-    </div>
+        <!-- <a mat-icon-button> Logout </a> -->
+      <button mat-icon-button class="example-icon-button" (click)="handleButtonClick()">
+        <mat-icon
+          class="example-icon"
+          aria-hidden="false"
+          aria-label="Example user verified icon"
+          >account_circle</mat-icon
+        >
+      </button>
   </mat-toolbar-row>
 
   <!-- <mat-toolbar-row>

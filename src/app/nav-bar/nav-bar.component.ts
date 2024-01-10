@@ -11,4 +11,8 @@ import {MatIconModule} from '@angular/material/icon';
 })
 export class NavBarComponent {
 
+  handleButtonClick() {
+    console.log("button clicked");
+  }
+
 }
